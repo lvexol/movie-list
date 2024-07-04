@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+.search-box {
+  margin: 20px auto;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-box input:focus {
+  border-color: #007bff;
+}
+
+.search-box button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #007bff;
+  border-left: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.search-box button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.movie-item {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 200px;
+  text-align: center;
+}
+
+.movie-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.movie-item img {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  height: auto;
+}
+
+.movie-details {
+  padding: 10px;
+}
+
+.movie-details h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Modern design for MovieDetails */
+.movie-details-page {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.movie-details-page img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.movie-details-page h2 {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.movie-details-page p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.movie-details-page .details-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.movie-details-page .details-grid > div {
+  flex: 1 1 45%;
+  margin-bottom: 20px;
+}
+
+.movie-details-page button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.movie-details-page button:hover {
+  background-color: #0056b3;
+}
