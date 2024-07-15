@@ -44,7 +44,6 @@ function App() {
       <Router>
         <div className="App">
           <NavBar onSearch={fetchMovies} />
-          <h1>Movie List</h1>
           {error && <p>{error}</p>}
           <Routes>
             <Route path="/" element={<MovieList movies={movies} hasSearched={hasSearched} />} />

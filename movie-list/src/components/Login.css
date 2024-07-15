@@ -1,51 +1,58 @@
 /* Login.css */
+
+/* Container styles */
 .login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    background-color: #f0f0f0;
-  }
-  
-  .login-form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-  }
-  
-  .login-form h2 {
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .login-form input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-  }
-  
-  .login-form button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    background-color: #007bff;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .login-form button:hover {
-    background-color: #0056b3;
-  }
-  
-  .error-message {
-    color: red;
-    margin-bottom: 10px;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjusted to full viewport height */
+  background-color: #f0f0f0;
+}
+
+/* Form styles */
+.login-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Increased width for better spacing */
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #333333;
+  font-size: 1.8rem; /* Larger font size for heading */
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px; /* Increased padding for better input area */
+  margin-bottom: 15px; /* Increased margin bottom for better spacing */
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem; /* Standard font size */
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem; /* Standard font size */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.login-form button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px; /* Adjusted margin top for spacing */
+  font-size: 0.9rem; /* Smaller font size for error messages */
+}
