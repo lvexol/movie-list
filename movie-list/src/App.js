@@ -16,7 +16,7 @@ function App() {
   const fetchMovies = async (query) => {
     setHasSearched(true);
     try {
-      const response = await fetch(`http://www.omdbapi.com/?s=${query}&apikey=2cf36365`);
+      const response = await fetch(`http://www.omdbapi.com/?s=${query}&apikey=d7a61a8`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
